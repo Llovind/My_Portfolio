@@ -1,0 +1,38 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/coverage/
+*.tsbuildinfo
+/next-env.d.ts
+
+# Local configuration and credentials
+.env*
+!.env.example
+/.vercel/
+/.vscode/
+/.idea/
+
+# Local tools, tests and historical reports
+/.qa/
+/.setup-cache/
+/.skill-audit/
+/.cleanup-tools/
+/.agents/
+/.codex/
+/AGENTS.md
+/docs/
+/FILM_BUNDLE_REPORT.json
+/VERIFICATION*
+*.log
+*.zip
+__pycache__/
+
+# Owner source material; public copies used by the site live in public/
+/jpg/
+/My_Portfolio/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
